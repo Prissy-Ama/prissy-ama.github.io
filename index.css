@@ -1,0 +1,117 @@
+/* body style */
+body {
+  margin: 8% 19%;
+  background-color: hsl(0, 0%, 95%);
+}
+
+/* styling the main element */
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+/* styles for the sedan component  */
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  height: 56vh;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  margin: 15% 0;
+  font-family: Big Shoulders Display, Arial;
+  font-weight: 700;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 40%;
+  width: 210px;
+  line-height: 25px;
+  font-size: 15px;
+  font-family: Lexend Deca, arial;
+  font-weight: 400;
+}
+
+.sedans-button {
+  padding: 15px 35px;
+  border-style: none;
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  cursor: pointer;
+  color: hsl(31, 77%, 52%);
+  transition: opacity 0.15s;
+}
+
+.sedans-button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+
+.content {
+  padding-left: 13%;
+  padding-right: 16%;
+}
+
+/* styles for the suvs component */
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 56vh;
+  width: 300px;
+}
+
+.suvs-button {
+  padding: 15px 35px;
+  border-style: none;
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  cursor: pointer;
+  color: hsl(184, 100%, 22%);
+  transition: opacity 0.15s;
+}
+
+.suvs-button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+
+/* styles for the luxury component */
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 56vh;
+  width: 300px;
+}
+
+#luxury-button {
+  padding: 15px 35px;
+  border-style: none;
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  cursor: pointer;
+  color: hsl(179, 100%, 13%);
+  transition: opacity 0.15s;
+}
+
+#luxury-button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+
+/* The styles I used for h1, paragraph, and content are inherited by suvs and luxury. */
